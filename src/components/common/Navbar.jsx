@@ -16,11 +16,11 @@ const Navbar = () => {
     <nav className="bg-black p-4 flex-grow-0">
       <div className="flex items-center justify-between container max-w-[1152px] mx-auto px-3">
         <Image
-          src="/assets/png/logo.png"
-          width={210}
+          src="/assets/webp/logo.webp"
+          width={150}
           height={43}
           alt="Logo"
-          className="h-8"
+          className="h-8 sm:w-[210px] sm:h-[43px]"
         />
         <ul className="hidden lg:flex space-x-4">
           {navLink.map((value, index) => {
@@ -31,7 +31,7 @@ const Navbar = () => {
                   key={index}
                   href={value.path}
                 >
-                  {value.tittle}
+                  {value.title}
                 </Link>
               </li>
             );
@@ -60,12 +60,15 @@ const Navbar = () => {
         ></div>
       )}
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 w-64 bg-black z-50 transform ${
+        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-black z-50 transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition duration-300 ease-in-out`}
       >
-        <div className="p-4 min-h-screen">
-          <button className="text-white text-3xl" onClick={sidebarHandler}>
+        <div className="p-4 min-h-screen flex flex-col justify-center items-center">
+          <button
+            className="text-white text-sm absolute top-3 right-3"
+            onClick={sidebarHandler}
+          >
             close
           </button>
           <ul className="flex flex-col items-center space-y-4 my-5">
@@ -78,7 +81,7 @@ const Navbar = () => {
                     href={value.path}
                     onClick={sidebarHandler}
                   >
-                    {value.tittle}
+                    {value.title}
                   </Link>
                 </li>
               );

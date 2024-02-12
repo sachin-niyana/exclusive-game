@@ -13,14 +13,14 @@ const Slots = () => {
               className="absolute top-[40%] lg:w-[250px] lg:left-[20%] left-[23%] md:block hidden"
               width={150}
               height={50}
-              src="/assets/png/rounded-arrow-1.png"
+              src="/assets/webp/rounded-arrow-1.webp"
               alt="rounded-arrow"
             />
             <Image
               className="absolute top-[50%] lg:w-[250px] lg:right-[20%] right-[23%] md:block hidden"
               width={150}
               height={50}
-              src="/assets/png/rounded-arrow-2.png"
+              src="/assets/webp/rounded-arrow-2.webp"
               alt="rounded-arrow"
             />
             <h2 className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
@@ -41,9 +41,9 @@ const Slots = () => {
                     />
                   </div>
                   <p className="text-Rich-Black font-Anton font-normal text-xmd text-center mt-4">
-                    {value.tittle}
+                    {value.title}
                   </p>
-                  <p className="text-dark-gray font-medium font-Inter text-sm text-center mt-4">
+                  <p className="text-dark-gray font-medium font-Inter sm:text-sm text-xsm text-center mt-4">
                     {value.discription}
                   </p>
                 </div>
@@ -54,7 +54,7 @@ const Slots = () => {
             Slots{" "}
           </h2>
           <div className="flex justify-center mt-4">
-            <p className=" font-Inter font-medium text-sm text-Rich-Black text-center max-w-[900px]">
+            <p className=" font-Inter font-medium sm:text-sm text-xsm text-Rich-Black text-center max-w-[900px]">
               En Exclusive Games, ofrecemos una selección de más de 600 juegos
               de los principales desarrolladores, como Aristocrat, Amatic, EGT,
               Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo

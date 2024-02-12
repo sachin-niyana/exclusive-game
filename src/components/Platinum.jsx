@@ -12,7 +12,7 @@ const Platinum = () => {
               <h3 className="text-white md:text-2md text-md font-normal font-Anton text-start mt-8">
                 Platinum
               </h3>
-              <p className="text-gray text-sm font-Inter font-medium max-w-[364px] mt-4 mb-3">
+              <p className="text-gray sm:text-sm text-xsm font-Inter font-medium max-w-[364px] mt-4 mb-3">
                 Diseño totalmente personalizado. Contáctanos para un
                 presupuesto.
               </p>
@@ -21,12 +21,12 @@ const Platinum = () => {
               </h2>
               <div className="flex justify-start gap-2 items-start mt-4">
                 <Image
-                  src="/assets/png/seen.png"
+                  src="/assets/webp/seen.webp"
                   alt="seen"
                   width={24}
                   height={24}
                 />
-                <p className="text-gray text-sm font-Inter font-medium max-w-[380px]">
+                <p className="text-gray sm:text-sm text-xsm font-Inter font-medium max-w-[380px]">
                   Personalizable
                 </p>
               </div>
@@ -36,7 +36,7 @@ const Platinum = () => {
             </div>
             <div className="md:w-7/12 ">
               <Image
-                src="/assets/png/win-2.png"
+                src="/assets/webp/win-2.webp"
                 alt="win-2"
                 width={558}
                 height={439}

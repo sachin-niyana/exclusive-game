@@ -10,14 +10,14 @@ const Ofertas = () => {
         <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
           Nuestras ofertas
         </h2>
-        <p className="text-white text-sm font-Inter font-medium text-center pb-1 mt-4">
+        <p className="text-white sm:text-sm text-xsm font-Inter font-medium text-center pb-1 mt-4">
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
         <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 border-light-gray rounded-2xl mt-14 p-7">
           <div className="flex justify-center items-center flex-wrap">
             <div className="md:w-7/12 ">
               <Image
-                src="/assets/png/navegar.png"
+                src="/assets/webp/navegar.webp"
                 alt="jackpot"
                 width={558}
                 height={439}
@@ -27,7 +27,7 @@ const Ofertas = () => {
               <h3 className="text-white md:text-2md text-md font-normal font-Anton text-start mt-8">
                 Silver
               </h3>
-              <p className="text-gray text-sm font-Inter font-medium mt-4 mb-3">
+              <p className="text-gray sm:text-sm text-xsm font-Inter font-medium mt-4 mb-3">
                 Con Exclusive Game lo mejor está de tu lado.
               </p>
               <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-start">
@@ -39,7 +39,7 @@ const Ofertas = () => {
                   className="flex justify-start gap-2 items-start mt-3"
                 >
                   <Image src={value.image} alt="seen" width={24} height={24} />
-                  <p className="text-gray text-sm font-Inter font-medium max-w-[380px]">
+                  <p className="text-gray sm:text-sm text-xsm font-Inter font-medium max-w-[380px]">
                     {value.title}
                   </p>
                 </div>

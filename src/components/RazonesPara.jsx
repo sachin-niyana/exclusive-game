@@ -7,22 +7,22 @@ const razonesPara = () => {
     <div className="bg-Rich-Black relative">
       <Image
         className="absolute w-full top-0"
-        src="/assets/png/trangle.png"
+        src="/assets/webp/trangle.webp"
         alt="trangle"
         width={1440}
         height={237}
       />
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-80 md:pt-56 pt-36">
-        <div className="flex justify-center items-center flex-wrap lg:py-20 md:py-16 py-12 ">
+        <div className="flex justify-center items-center flex-wrap lg:py-20  ">
           <div className="md:w-6/12 md:pe-5 md:mt-0 mt-12">
             <Image
-              src="/assets/png/win.png"
+              src="/assets/webp/win.webp"
               alt="jackpot"
               width={558}
               height={439}
             />
           </div>
-          <div className="md:w-6/12 md:ps-5">
+          <div className="md:w-6/12 md:ps-5 md:pt-0 pt-10">
             <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-start">
               Más razones para elegirnos
             </h2>
@@ -41,9 +41,9 @@ const razonesPara = () => {
                     />
                     <div className="flex flex-col">
                       <p className="text-white text-2md font-normal font-Anton">
-                        {value.tittle}
+                        {value.title}
                       </p>
-                      <p className="text-white text-sm font-medium font-Inter">
+                      <p className="text-white sm:text-sm text-xsm font-medium font-Inter">
                         {value.discription}
                       </p>
                     </div>
