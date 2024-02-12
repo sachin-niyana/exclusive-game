@@ -1,7 +1,6 @@
-import React from "react";
-import { juegos } from "./common/Helper";
-import CommonButtonTwo from "./common/CommonButtonTwo";
 import Image from "next/image";
+import CommonButtonTwo from "./common/CommonButtonTwo";
+import { eligieron } from "./common/Helper";
 
 const Eligieron = () => {
   return (
@@ -12,7 +11,7 @@ const Eligieron = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center lg:mt-14 md:mt-12 mt-8 pt-1 ">
-          {juegos.map((value, index) => (
+          {eligieron.map((value, index) => (
             <div
               key={index}
               className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"

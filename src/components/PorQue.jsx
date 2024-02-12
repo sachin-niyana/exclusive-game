@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const PorQue = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="pro-que">
       <div className="container max-w-[1152px] mx-auto px-3 lg:py-20 md:py-16 py-12 ">
         <div className="flex justify-center items-center flex-wrap">
           <div className="md:w-6/12 md:pe-5">

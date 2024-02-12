@@ -5,11 +5,11 @@ const CommonButtonOne = (props) => {
   return (
     <div className=" relative group">
       <button
-        className={`font-inter font-bold text-base bg-[linear-gradient(306.99deg,_#51c8ef_-13.72%,_#7af57a_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold sm:text-sm text-xsm bg-[linear-gradient(306.99deg,_#51c8ef_-13.72%,_#7af57a_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content}
       </button>
-      <span className="absolute start-[-7px] bottom-[-7px] transition-all ease-in-out duration-200 ">
+      <span className="absolute start-[-7px] bottom-[-7px] group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 transition-all ease-in-out duration-300 ">
         <svg
           width="107"
           height="28"

@@ -11,11 +11,9 @@ import Potenciando from "@/components/Potenciando";
 import RazonesPara from "@/components/RazonesPara";
 import Slots from "@/components/Slots";
 import MyAccordion from "@/components/common/MyAccordion";
-import Navbar from "@/components/common/Navbar";
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <div className="overflow-x-hidden scroll-smooth">
       <Header />
       <Nuestra />
       <Slots />
@@ -29,6 +27,6 @@ export default function Home() {
       <MyAccordion />
       <Plataforma />
       <Footer />
-    </>
+    </div>
   );
 }

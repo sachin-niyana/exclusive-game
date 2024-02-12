@@ -1,11 +1,11 @@
 import { Call, Mail } from "./Icon";
 
 export const navLink = [
-  { title: "Hogar", path: "/" },
-  { title: "Misión", path: "/" },
-  { title: "Tragamonedas", path: "/" },
-  { title: "Por qué elegirnos", path: "/" },
-  { title: "Ofertas", path: "/" },
+  { title: "Hogar", path: "#hogar" },
+  { title: "Misión", path: "#mision" },
+  { title: "Tragamonedas", path: "#tragamonedas" },
+  { title: "Por qué elegirnos", path: "#pro-que" },
+  { title: "Ofertas", path: "#ofertas" },
 ];
 export const razonesCard = [
   {
@@ -33,15 +33,15 @@ export const nuestrosCard = [
   },
   {
     image: "/assets/webp/proactividad.webp",
-    title: "Inteligencia",
+    title: "Proactividad",
     discription:
-      "Comprendemos a la perfección los gustos de las personas y el mundo del gaming.",
+      "Somos creadores de cambios que exploran nuevas formas de entretenimiento.",
   },
   {
     image: "/assets/webp/innovacion.webp",
-    title: "Inteligencia",
+    title: "Innovación",
     discription:
-      "Comprendemos a la perfección los gustos de las personas y el mundo del gaming.",
+      "Pensamos fuera de la caja para estar siempre un paso adelante.",
   },
 ];
 export const slots = [
@@ -49,19 +49,30 @@ export const slots = [
     image: "/assets/webp/game-card-1.webp",
   },
   {
-    image: "/assets/webp/game-card-1.webp",
+    image: "/assets/webp/game-card-2.webp",
   },
   {
-    image: "/assets/webp/game-card-1.webp",
+    image: "/assets/webp/game-card-3.webp",
   },
   {
-    image: "/assets/webp/game-card-1.webp",
+    image: "/assets/webp/game-card-4.webp",
   },
   {
-    image: "/assets/webp/game-card-1.webp",
+    image: "/assets/webp/game-card-5.webp",
   },
   {
-    image: "/assets/webp/game-card-1.webp",
+    image: "/assets/webp/game-card-6.webp",
+  },
+];
+export const eligieron = [
+  {
+    image: "/assets/webp/eligieron-card-1.webp",
+  },
+  {
+    image: "/assets/webp/eligieron-card-2.webp",
+  },
+  {
+    image: "/assets/webp/eligieron-card-3.webp",
   },
 ];
 export const juegos = [
@@ -69,10 +80,10 @@ export const juegos = [
     image: "/assets/webp/juegos-card.webp",
   },
   {
-    image: "/assets/webp/juegos-card.webp",
+    image: "/assets/webp/juegos-card-2.webp",
   },
   {
-    image: "/assets/webp/juegos-card.webp",
+    image: "/assets/webp/juegos-card-3.webp",
   },
 ];
 export const potenciando = [

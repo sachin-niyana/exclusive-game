@@ -83,3 +83,19 @@ export const Call = () => {
     </svg>
   );
 };
+export const Arrow = () => {
+  return (
+    <svg
+      width="19"
+      height="13"
+      viewBox="0 0 19 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.8509 12.1364L11.5327 10.8239L14.9929 7.36932H0.703125V5.44886H14.9929L11.5327 1.98864L12.8509 0.681818L18.5781 6.40909L12.8509 12.1364Z"
+        fill="#7AF57A"
+      />
+    </svg>
+  );
+};

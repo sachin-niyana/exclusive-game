@@ -5,7 +5,7 @@ import CommonButtonTwo from "./common/CommonButtonTwo";
 
 const Ofertas = () => {
   return (
-    <div className="bg-Rich-Black">
+    <div className="bg-Rich-Black" id="tragamonedas">
       <div className="container max-w-[1152px] mx-auto px-3 pb-2">
         <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
           Nuestras ofertas
@@ -15,8 +15,10 @@ const Ofertas = () => {
         </p>
         <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 border-light-gray rounded-2xl mt-14 p-7">
           <div className="flex justify-center items-center flex-wrap">
-            <div className="md:w-7/12 ">
+            <div className="md:w-7/12 relative">
+              <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[70px] top-[8%] left-[10%] pointer-events-none"></div>
               <Image
+                className="relative"
                 src="/assets/webp/navegar.webp"
                 alt="jackpot"
                 width={558}
@@ -44,7 +46,7 @@ const Ofertas = () => {
                   </p>
                 </div>
               ))}
-              <div className="mt-10">
+              <div className="mt-10 inline-block">
                 <CommonButtonTwo content="Comprar ahora" />
               </div>
             </div>

@@ -26,7 +26,7 @@ const Slots = () => {
             <h2 className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
               Nuestros Atributos de Marca
             </h2>
-            <div className="flex flex-wrap md:justify-between justify-center pt-1">
+            <div className="flex items-start flex-wrap md:justify-between justify-center pt-1">
               {nuestrosCard.map((value, index) => (
                 <div
                   key={index}

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 flex-grow-0">
+    <nav className="bg-Rich-Black bg-opacity-60 p-4 flex-grow-0">
       <div className="flex items-center justify-between container max-w-[1152px] mx-auto px-3">
         <Image
           src="/assets/webp/logo.webp"
@@ -27,7 +27,7 @@ const Navbar = () => {
             return (
               <li key={index}>
                 <Link
-                  className="text-white font-inter font-medium text-base opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
+                  className="text-white font-inter font-medium sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                   key={index}
                   href={value.path}
                 >
@@ -66,7 +66,7 @@ const Navbar = () => {
       >
         <div className="p-4 min-h-screen flex flex-col justify-center items-center">
           <button
-            className="text-white text-sm absolute top-3 right-3"
+            className="text-white text-sm absolute top-6 right-5"
             onClick={sidebarHandler}
           >
             close
@@ -76,7 +76,7 @@ const Navbar = () => {
               return (
                 <li key={index}>
                   <Link
-                    className="text-white font-inter font-medium text-base opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
+                    className="text-white font-inter font-medium sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                     key={index}
                     href={value.path}
                     onClick={sidebarHandler}

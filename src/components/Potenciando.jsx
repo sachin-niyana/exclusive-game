@@ -5,7 +5,10 @@ import CommonButtonTwo from "./common/CommonButtonTwo";
 
 const Potenciando = () => {
   return (
-    <div className="bg-cover bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]">
+    <div
+      className="bg-cover bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
+      id="mision"
+    >
       <Image
         className="absolute w-full top-0"
         src="/assets/webp/trangle.webp"

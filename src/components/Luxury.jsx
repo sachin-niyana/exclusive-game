@@ -6,7 +6,7 @@ const Luxury = () => {
   return (
     <div className="bg-Rich-Black">
       <div className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2">
-        <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-7 bg-cover bg-[url('/assets/webp/luxury-bg.webp')] relative">
+        <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-11 bg-cover bg-[url('/assets/webp/luxury-bg.webp')] relative">
           <Image
             className="absolute md:block hidden bottom-[20%] lg:right-[20%] right-[10%]"
             width={66}

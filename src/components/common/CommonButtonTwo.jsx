@@ -6,11 +6,11 @@ const CommonButtonTwo = (props) => {
   return (
     <div className=" relative group">
       <button
-        className={`font-inter font-bold text-base bg-transparent text-white border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-Inter font-bold sm:text-sm text-xsm bg-transparent text-white border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content}
       </button>
-      <span className="absolute start-[-7px] bottom-[-7px] transition-all ease-in-out duration-200">
+      <span className="absolute start-[-7px] bottom-[-7px] group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 duration-300 transition-all ease-in-out">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="106"

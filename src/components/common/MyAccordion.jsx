@@ -18,7 +18,7 @@ function Icon({ id, open }) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className={` absolute top-[50%] translate-x-[-50%] translate-y-[-50%] start-[50%] ${
-            id === open ? "rotate-90" : ""
+            id === open ? "" : "rotate-90"
           } w-4  h-1 transition-transform`}
         >
           <path
@@ -52,7 +52,8 @@ const MyAccordion = () => {
   };
 
   return (
-    <div className="bg-Rich-Black relative">
+    <div className="bg-Rich-Black relative" id="ofertas">
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[5%] left-[-5%] z-10 pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-36 md:pt-28 sm:pt-20 pt-12">
         <h2 className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
           Ellos eligieron apostar con nosotros
@@ -61,7 +62,7 @@ const MyAccordion = () => {
           {accordian.map((value, index) => (
             <Accordion
               key={index}
-              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-6 bg-darkBlue overflow-hidden ease-out transition-all duration-300 mt-10 relative"
+              className="flex flex-col justify-between border-[0.5px] border-light-gray hover:shadow-[0px_0px_10px_2px_gray] duration-300 rounded-md px-6 bg-black-Green overflow-hidden ease-out transition-all mt-10 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
             >
@@ -69,12 +70,12 @@ const MyAccordion = () => {
                 onClick={() => toggleAccordion(index)}
                 className="py-4"
               >
-                <h2 className="text-start text-white flex font-anton font-normal leading-[140%] md:leading-[150%] text-base mb-0">
+                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] sm:text-sm text-xsm mb-0">
                   {value.tittle}
                 </h2>
               </AccordionHeader>
               <AccordionBody className="pb-4">
-                <p className="font-inter font-medium md:text-base text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
+                <p className="font-Inter font-medium md:sm:text-sm text-xsm text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
                   {value.content}
                 </p>
               </AccordionBody>

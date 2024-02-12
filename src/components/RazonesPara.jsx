@@ -5,6 +5,8 @@ import { razonesCard } from "./common/Helper";
 const razonesPara = () => {
   return (
     <div className="bg-Rich-Black relative">
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[10%] z-10 left-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[10%] right-[-10%] pointer-events-none"></div>
       <Image
         className="absolute w-full top-0"
         src="/assets/webp/trangle.webp"
@@ -16,6 +18,7 @@ const razonesPara = () => {
         <div className="flex justify-center items-center flex-wrap lg:py-20  ">
           <div className="md:w-6/12 md:pe-5 md:mt-0 mt-12">
             <Image
+              className="relative z-10"
               src="/assets/webp/win.webp"
               alt="jackpot"
               width={558}

@@ -2,10 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Arrow } from "./common/Icon";
 
 const Nuestra = () => {
   return (
-    <div className=" bg-Rich-Black overflow-hidden relative">
+    <div className=" bg-Rich-Black relative" id="hogar">
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[15%] z-10 left-[-5%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] bottom-[0%] z-10 right-0 pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[35%] left-[45%] z-10 pointer-events-none"></div>
       <Image
         src="/assets/webp/trangle-2.webp"
         alt="trangle-2"
@@ -24,10 +28,10 @@ const Nuestra = () => {
               className="w-full max-w-[538px] md:mb-[60px] mb-10"
             />
             <div className=" flex-col flex items-start">
-              <p className=" font-anton font-normal sm:text-5xl text-3xl text-white mb-4 leading-[96%]">
+              <p className="font-Anton text-white lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
                 Nuestra Visión
               </p>
-              <p className="text-white opacity-70 font-inter font-medium sm:text-base sm:text-sm text-xsm max-w-[445px] mb-6">
+              <p className="text-white opacity-70 font-Inter font-medium sm:sm:text-sm text-xsm sm:text-sm text-xsm max-w-[445px] mb-6">
                 Nuestra visión es ser líderes indiscutibles en la industria de
                 los juegos de azar y llevar nuestra pasión por el
                 entretenimiento más allá de las fronteras. Imagina un mundo
@@ -36,21 +40,21 @@ const Nuestra = () => {
               </p>
               <Link
                 href="/"
-                className=" font-inter font-bold text-base text-Pastel-Green flex items-center group"
+                className=" font-Inter font-bold sm:text-sm text-xsm text-Pastel-Green flex items-center group"
               >
                 Aprende más
                 <span className=" ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">
-                  --
+                  <Arrow />
                 </span>
               </Link>
             </div>
           </div>
           <div className="md:w-6/12 w-full flex md:flex-col flex-col-reverse md:ps-8">
             <div className=" flex-col flex items-start">
-              <p className=" font-anton font-normal sm:text-5xl text-3xl text-white mb-4 leading-[96%]">
+              <p className="font-Anton text-white lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
                 Nuestra Visión
               </p>
-              <p className="text-white opacity-70 font-inter font-medium sm:text-base sm:text-sm text-xsm max-w-[445px] mb-6">
+              <p className="text-white opacity-70 font-Inter font-medium sm:sm:text-sm text-xsm sm:text-sm text-xsm max-w-[445px] mb-6">
                 Nuestra visión es ser líderes indiscutibles en la industria de
                 los juegos de azar y llevar nuestra pasión por el
                 entretenimiento más allá de las fronteras. Imagina un mundo
@@ -59,11 +63,11 @@ const Nuestra = () => {
               </p>
               <Link
                 href="/"
-                className=" font-inter font-bold text-base text-Pastel-Green flex items-center group"
+                className=" font-Inter font-bold sm:text-sm text-xsm text-Pastel-Green flex items-center group"
               >
                 Aprende más
                 <span className=" ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">
-                  --
+                  <Arrow />
                 </span>
               </Link>
             </div>
