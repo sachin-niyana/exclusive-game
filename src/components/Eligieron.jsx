@@ -14,6 +14,9 @@ const Eligieron = () => {
           {eligieron.map((value, index) => (
             <div
               key={index}
+              data-aos="flip-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
               className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             >
               <div className="relative">

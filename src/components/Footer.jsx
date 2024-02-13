@@ -41,7 +41,7 @@ const Footer = () => {
               return (
                 <ul
                   key={index}
-                  className="md:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
                 >
                   <li className=" font-inter font-bold sm:text-sm text-xsm text-white mb-2">
                     {value.tittle}

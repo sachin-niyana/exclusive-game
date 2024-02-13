@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { navLink } from "./Helper";
 import CommonButtonTwo from "./CommonButtonTwo";
+import { RxCross1 } from "react-icons/rx";
+import { HiOutlineBars4 } from "react-icons/hi2";
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -22,7 +24,7 @@ const Navbar = () => {
           alt="Logo"
           className="h-8 sm:w-[210px] sm:h-[43px]"
         />
-        <ul className="hidden lg:flex space-x-4">
+        <ul className="hidden lg:flex gap-7 ">
           {navLink.map((value, index) => {
             return (
               <li key={index}>
@@ -49,7 +51,7 @@ const Navbar = () => {
           className="block lg:hidden text-white text-3xl"
           onClick={sidebarHandler}
         >
-          open
+          <HiOutlineBars4 />
         </button>
       </div>
       {/* Sidebar */}
@@ -69,7 +71,7 @@ const Navbar = () => {
             className="text-white text-sm absolute top-6 right-5"
             onClick={sidebarHandler}
           >
-            close
+            <RxCross1 />
           </button>
           <ul className="flex flex-col items-center space-y-4 my-5">
             {navLink.map((value, index) => {

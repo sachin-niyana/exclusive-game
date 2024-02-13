@@ -10,7 +10,12 @@ const Platinum = () => {
       <div className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2">
         <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 flex flex-col justify-center border-light-gray rounded-2xl px-10 py-20">
           <div className="flex flex-col-reverse md:flex-row justify-center items-center flex-wrap">
-            <div className="md:w-5/12 md:ps-5 md:pt-0 pt-10">
+            <div
+              className="md:w-5/12 md:ps-5 md:pt-0 pt-10"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <h3 className="text-white md:text-2md text-md font-normal font-Anton text-start mt-8">
                 Platinum
               </h3>
@@ -36,7 +41,12 @@ const Platinum = () => {
                 <CommonButtonTwo content="Comprar ahora" />
               </div>
             </div>
-            <div className="md:w-7/12 relative">
+            <div
+              className="md:w-7/12 relative"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[70px] top-[3%] z-[0] right-[15%] pointer-events-none"></div>
               <Image
                 className="z-10 relative"

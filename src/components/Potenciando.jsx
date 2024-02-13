@@ -25,15 +25,26 @@ const Potenciando = () => {
       />
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-80 md:pt-56 pt-36">
         <div className="flex justify-center items-center flex-wrap">
-          <div className="min-[840px]:w-6/12 min-[840px]:pe-5">
+          <div
+            className="md:w-6/12 md:pe-5"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Image
+              className="md:max-w-[558px] sm:max-w-[430px] w-full max-w-[330px]"
               src="/assets/webp/jackpot.webp"
               alt="jackpot"
               width={558}
               height={439}
             />
           </div>
-          <div className="min-[840px]:w-6/12 min-[840px]:ps-5 min-[840px]:pt-0 pt-10">
+          <div
+            className="md:w-6/12 md:ps-5 md:pt-0 pt-10"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-start">
               Potenciando sus elecciones
             </h2>
@@ -56,14 +67,24 @@ const Potenciando = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center lg:py-36 md:py-28 sm:py-20 py-12">
-          <div className="max-w-[1043px] px-3 w-full min-h-[308px] flex justify-center items-center border border-white rounded-2xl">
+        <div
+          className="flex justify-center lg:py-36 md:py-28 sm:py-20 py-12"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <div className="max-w-[1043px] px-3 w-full hover:shadow-[0px_0px_5px_4px_gray] min-h-[308px] flex justify-center items-center border border-white rounded-2xl bg-[url('/assets/webp/lanza-bg.webp')] bg-cover">
             <p className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center max-w-[520px]">
               lanza tu propia plataforma en sólo 2 semanas
             </p>
           </div>
         </div>
-        <p className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center mt-1.5">
+        <p
+          className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center mt-1.5"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           Juegos en vivo
         </p>
 
@@ -71,6 +92,9 @@ const Potenciando = () => {
           {juegos.map((value, index) => (
             <div
               key={index}
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
               className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             >
               <div className="relative">

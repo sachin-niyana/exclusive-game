@@ -62,7 +62,10 @@ const MyAccordion = () => {
           {accordian.map((value, index) => (
             <Accordion
               key={index}
-              className="flex flex-col justify-between border-[0.5px] border-light-gray hover:shadow-[0px_0px_10px_2px_gray] duration-300 rounded-md px-6 bg-black-Green overflow-hidden ease-out transition-all mt-10 relative"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="flex flex-col justify-between border-[0.5px] border-light-gray hover:shadow-[0px_0px_10px_2px_gray] duration-300 rounded-md px-6 bg-black-Green overflow-hidden ease-out transition-all md:mt-10 mt-5 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
             >
@@ -70,12 +73,12 @@ const MyAccordion = () => {
                 onClick={() => toggleAccordion(index)}
                 className="py-4"
               >
-                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] sm:text-sm text-xsm mb-0">
+                <h2 className="text-start text-white flex px-3 font-Anton font-normal leading-[140%] md:leading-[150%] sm:text-sm text-xsm mb-0">
                   {value.tittle}
                 </h2>
               </AccordionHeader>
               <AccordionBody className="pb-4">
-                <p className="font-Inter font-medium md:sm:text-sm text-xsm text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
+                <p className="font-Inter font-medium md:sm:text-sm text-xsm max-w-[740px] text-white opacity-70 leading-[150%]">
                   {value.content}
                 </p>
               </AccordionBody>

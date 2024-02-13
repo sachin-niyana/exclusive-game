@@ -15,6 +15,9 @@ const Slots = () => {
               height={50}
               src="/assets/webp/rounded-arrow-1.webp"
               alt="rounded-arrow"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             />
             <Image
               className="absolute top-[50%] lg:w-[250px] lg:right-[20%] right-[23%] md:block hidden"
@@ -22,15 +25,26 @@ const Slots = () => {
               height={50}
               src="/assets/webp/rounded-arrow-2.webp"
               alt="rounded-arrow"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             />
-            <h2 className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
+            <h2
+              className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               Nuestros Atributos de Marca
             </h2>
             <div className="flex items-start flex-wrap md:justify-between justify-center pt-1">
               {nuestrosCard.map((value, index) => (
                 <div
                   key={index}
-                  className="max-w-[265px] lg:mt-14 md:mt-10 mt-6 md:w-4/12 sm:w-6/12 p-3"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  className="max-w-[265px] lg:mt-14 md:mt-10 sm:mt-5 mt-2 md:w-4/12 sm:w-6/12 p-3"
                 >
                   <div className="flex justify-center">
                     <Image
@@ -50,7 +64,12 @@ const Slots = () => {
               ))}
             </div>
           </div>
-          <h2 className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal lg:mt-36 md:mt-24 mt-16 pt-1">
+          <h2
+            className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal lg:mt-36 md:mt-24 sm:mt-14 mt-10 pt-1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             Slots{" "}
           </h2>
           <div className="flex justify-center mt-4">
@@ -63,10 +82,13 @@ const Slots = () => {
               protegidas por cifrado SSL de 256 bits.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center mt-14 pt-1">
+          <div className="flex flex-wrap justify-center md:mt-14 mt-10 pt-1">
             {slots.map((value, index) => (
               <div
                 key={index}
+                data-aos="flip-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
                 className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
               >
                 <div className="relative">
