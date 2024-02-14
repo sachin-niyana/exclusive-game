@@ -6,7 +6,7 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 const Potenciando = () => {
   return (
     <div
-      className="bg-cover bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
+      className="bg-cover md:block hidden bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
       id="mision"
     >
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[5%] z-10 left-[-3%] pointer-events-none"></div>
@@ -75,7 +75,7 @@ const Potenciando = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <div className="max-w-[1043px] px-3 w-full hover:shadow-[0px_0px_5px_4px_gray] min-h-[308px] flex justify-center items-center border border-white rounded-2xl bg-[url('/assets/webp/lanza-bg.webp')] bg-cover">
+          <div className="max-w-[1043px] px-3 w-full hover:shadow-grayShadow transition-all ease-in-out duration-1000 min-h-[308px] flex justify-center items-center border border-white rounded-2xl bg-[url('/assets/webp/lanza-bg.webp')] bg-cover">
             <p className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center max-w-[520px]">
               lanza tu propia plataforma en sólo 2 semanas
             </p>
@@ -101,7 +101,7 @@ const Potenciando = () => {
             >
               <div className="relative group/items">
                 <div className="bg-black rounded-lg opacity-0 group-hover/items:opacity-60 duration-300 w-full absolute h-full"></div>
-                <div className="absolute flex justify-center items-center w-full h-full group-hover/items:opacity-100 opacity-0">
+                <div className="absolute transition-all ease-in-out duration-1000 flex justify-center items-center w-full h-full group-hover/items:opacity-100 opacity-0">
                   <CommonButtnWhite content="Reproducir ahora" />
                 </div>
                 <Image

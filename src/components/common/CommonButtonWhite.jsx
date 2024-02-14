@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { ButtonBorderWhite } from "./Icon";
 
 const CommonButtnWhite = (props) => {
   const { content } = props;
@@ -11,20 +12,7 @@ const CommonButtnWhite = (props) => {
         {content}
       </button>
       <span className="absolute start-[-7px] bottom-[-7px] whitespace-nowrap group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 duration-300 transition-all ease-in-out">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="106"
-          height="28"
-          viewBox="0 0 106 28"
-          fill="none"
-        >
-          <path
-            d="M1 1C1 15.3594 12.6406 27 27 27H105"
-            stroke="white"
-            stroke-width="1.5"
-            stroke-linecap="round"
-          />
-        </svg>
+        <ButtonBorderWhite />
       </span>
     </div>
   );

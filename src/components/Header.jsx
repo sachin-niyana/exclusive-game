@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container max-w-[1152px] mx-auto px-3 flex-grow-[1] flex items-center justify-center">
           <div className=" flex flex-col items-center">
             <p
-              className=" block font-Anton font-normal text-white lg:text-xxl md:text-xl sm:text-2lg text-lg"
+              className=" block font-Anton font-normal leading-[110%] text-white lg:text-xxl md:text-xl sm:text-2lg text-lg"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="1500"

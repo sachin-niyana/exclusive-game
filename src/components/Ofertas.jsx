@@ -16,19 +16,14 @@ const Ofertas = () => {
           Nuestras ofertas
         </h2>
         <p
-          className="text-white sm:text-sm text-xsm font-Inter font-medium text-center pb-1 mt-4"
+          className="text-white sm:text-sm text-xsm font-Inter duration-300 font-medium text-center pb-1 mt-4"
           data-aos="fade-left"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
-        <div
-          className="bg-black-Green border hover:shadow-grayShadow duration-300 border-light-gray rounded-2xl mt-14 p-7"
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-        >
+        <div className="bg-black-Green border transition-all ease-in-out duration-1000 hover:shadow-grayShadow border-light-gray rounded-2xl mt-14 p-7">
           <div className="flex justify-center items-center flex-wrap">
             <div className="md:w-7/12 relative">
               <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[70px] top-[8%] left-[10%] pointer-events-none"></div>
@@ -38,7 +33,7 @@ const Ofertas = () => {
                 data-aos-duration="1500"
                 className="relative "
                 src="/assets/webp/navegar.webp"
-                alt="jackpot"
+                alt="navegar"
                 width={558}
                 height={439}
               />

@@ -33,7 +33,7 @@ const PorQue = () => {
           >
             <Image
               src="/assets/webp/casion.webp"
-              alt="jackpot"
+              alt="casion"
               width={558}
               height={439}
               className="md:max-w-[558px] sm:max-w-[430px] max-w-[330px]"

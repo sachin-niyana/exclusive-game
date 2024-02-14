@@ -22,7 +22,7 @@ const Navbar = () => {
           width={150}
           height={43}
           alt="Logo"
-          className="h-8 md:w-[210px] md:h-[43px]"
+          className="h-8 md:w-[210px] md:h-[43px] "
         />
         <ul className="hidden lg:flex gap-7 ">
           {navLink.map((value, index) => {
@@ -52,7 +52,7 @@ const Navbar = () => {
           className="block lg:hidden text-white text-3xl"
           onClick={sidebarHandler}
         >
-          <HiOutlineBars4 />
+          <HiOutlineBars4 className="sm:w-10 sm:h-10 w-7 h-7" />
         </button>
       </div>
       {/* Sidebar */}
@@ -72,7 +72,7 @@ const Navbar = () => {
             className="text-white text-sm absolute top-6 right-5"
             onClick={sidebarHandler}
           >
-            <RxCross1 />
+            <RxCross1 className="sm:w-10 sm:h-10 w-7 h-7" />
           </button>
           <ul className="flex flex-col items-center space-y-4 my-5">
             {navLink.map((value, index) => {

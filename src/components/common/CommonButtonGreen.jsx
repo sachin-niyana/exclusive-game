@@ -1,4 +1,5 @@
 import React from "react";
+import { ButtonBorderGreen } from "./Icon";
 
 const CommonButtnGreen = (props) => {
   const { content } = props;
@@ -10,33 +11,7 @@ const CommonButtnGreen = (props) => {
         {content}
       </button>
       <span className="absolute start-[-7px] bottom-[-7px] group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 transition-all ease-in-out duration-300 ">
-        <svg
-          width="107"
-          height="28"
-          viewBox="0 0 107 28"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5"
-            stroke="url(#paint0_linear_1706_11)"
-            stroke-width="1.5"
-            stroke-linecap="round"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_1706_11"
-              x1="134.466"
-              y1="25.6913"
-              x2="113.531"
-              y2="-37.3975"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#51C8EF" />
-              <stop offset="1" stop-color="#7AF57A" />
-            </linearGradient>
-          </defs>
-        </svg>
+        <ButtonBorderGreen />
       </span>
     </div>
   );

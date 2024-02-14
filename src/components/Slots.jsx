@@ -65,7 +65,7 @@ const Slots = () => {
             </div>
           </div>
           <h2
-            className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal lg:mt-36 md:mt-24 sm:mt-14 mt-10 pt-1"
+            className="font-Anton lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal lg:mt-36 md:mt-20 sm:mt-14 mt-10 pt-1"
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -93,7 +93,7 @@ const Slots = () => {
               >
                 <div className="relative group/items">
                   <div className="bg-black rounded-lg opacity-0 group-hover/items:border group-hover/items:border-green-400 group-hover/items:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full"></div>
-                  <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
+                  <div className="absolute transition-all ease-in-out duration-1000 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
                     <CommonButtnWhite content="Jugar" />
                   </div>
                   <Image

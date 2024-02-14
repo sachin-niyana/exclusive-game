@@ -26,7 +26,7 @@ const razonesPara = () => {
               <Image
                 className="relative z-10 md:max-w-[558px] sm:max-w-[430px] w-full max-w-[330px]"
                 src="/assets/webp/win.webp"
-                alt="jackpot"
+                alt="win"
                 width={558}
                 height={439}
               />

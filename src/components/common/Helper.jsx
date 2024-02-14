@@ -14,14 +14,14 @@ export const razonesCard = [
     discription: "Páginas creadas",
   },
   {
-    image: "/assets/webp/paginas.webp",
-    title: "200",
-    discription: "Páginas creadas",
+    image: "/assets/png/star.png",
+    title: "98%",
+    discription: "Clientes Satisfechas",
   },
   {
-    image: "/assets/webp/paginas.webp",
+    image: "/assets/png/money.png",
     title: "200",
-    discription: "Páginas creadas",
+    discription: "Divisas Disponibles",
   },
 ];
 export const nuestrosCard = [

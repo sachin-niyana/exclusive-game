@@ -21,7 +21,7 @@ const Eligieron = () => {
             >
               <div className="relative group/items">
                 <div className="bg-black rounded-lg opacity-0 group-hover/items:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full"></div>
-                <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
+                <div className="absolute transition-all ease-in-out duration-1000 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
                   <CommonButtnWhite content="Rcasinovip" />
                 </div>
                 <Image

@@ -24,13 +24,25 @@ const Footer = () => {
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             <div className="flex gap-3 items-center">
-              <Link target="_blank" href="https://www.instagram.com/">
+              <Link
+                target="_blank"
+                aria-label={<Instagram />}
+                href="https://www.instagram.com/"
+              >
                 <Instagram />
               </Link>
-              <Link target="_blank" href="https://www.facebook.com/">
+              <Link
+                target="_blank"
+                aria-label={<Facebook />}
+                href="https://www.facebook.com/"
+              >
                 <Facebook />
               </Link>
-              <Link target="_blank" href="https://in.linkedin.com/">
+              <Link
+                target="_blank"
+                aria-label={<Linkedin />}
+                href="https://in.linkedin.com/"
+              >
                 <Linkedin />
               </Link>
             </div>
@@ -40,7 +52,7 @@ const Footer = () => {
               return (
                 <ul
                   key={index}
-                  className="md:w-4/12 ps-5 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 ps-0 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
                 >
                   <li className=" font-inter font-bold sm:text-sm text-xsm text-white mb-2">
                     {value.tittle}

@@ -37,7 +37,7 @@ const MyAccordion = () => {
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="flex flex-col justify-between border-[0.5px] border-light-gray hover:shadow-grayShadow duration-300 rounded-md px-5 bg-black-Green overflow-hidden ease-out transition-all md:mt-10 mt-5 relative"
+              className="flex flex-col justify-between border-[0.5px] border-light-gray hover:shadow-grayShadow transition-all ease-in-out duration-1000 rounded-md px-5 bg-black-Green overflow-hidden md:mt-10 mt-5 relative"
               open={isAccordionOpen === index}
               icon={
                 <ToggleButton
