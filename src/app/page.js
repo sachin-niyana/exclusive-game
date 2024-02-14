@@ -18,7 +18,10 @@ import MyAccordion from "@/components/common/MyAccordion";
 import BackToTop from "@/components/common/BackToTop";
 export default function Home() {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: true,
+    }); // Initialize AOS
   }, []);
   return (
     <div className="overflow-x-hidden scroll-smooth">

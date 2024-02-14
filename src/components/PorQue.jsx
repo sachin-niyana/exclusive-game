@@ -1,10 +1,10 @@
 import React from "react";
-import CommonButtonOne from "./common/CommonButtonOne";
+import CommonButtnGreen from "./common/CommonButtonGreen";
 import Image from "next/image";
 
 const PorQue = () => {
   return (
-    <div className="bg-white" id="pro-que">
+    <div className="bg-white " id="pro-que">
       <div className="container max-w-[1152px] mx-auto px-3 lg:py-20 md:py-16 py-12 ">
         <div className="flex justify-center items-center flex-wrap">
           <div
@@ -23,7 +23,7 @@ const PorQue = () => {
               interactivos que más pide la gente. Con Exclusive Games empezás a
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
-            <CommonButtonOne content="Aprende más" />
+            <CommonButtnGreen content="Aprende más" />
           </div>
           <div
             className="md:w-6/12 md:ps-5 md:mt-0 mt-12"

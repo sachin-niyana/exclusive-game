@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CommonButtonTwo from "./common/CommonButtonTwo";
 import { eligieron } from "./common/Helper";
+import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Eligieron = () => {
   return (
@@ -17,11 +17,12 @@ const Eligieron = () => {
               data-aos="flip-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+              className="p-3 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             >
-              <div className="relative">
-                <div className="bg-black rounded-lg opacity-0 hover:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full">
-                  <CommonButtonTwo content="Rcasinovip" />
+              <div className="relative group/items">
+                <div className="bg-black rounded-lg opacity-0 group-hover/items:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full"></div>
+                <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
+                  <CommonButtnWhite content="Rcasinovip" />
                 </div>
                 <Image
                   width={364}

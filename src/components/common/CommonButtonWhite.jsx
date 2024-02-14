@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const CommonButtonTwo = (props) => {
+const CommonButtnWhite = (props) => {
   const { content } = props;
   return (
     <div className=" relative group">
@@ -10,7 +10,7 @@ const CommonButtonTwo = (props) => {
       >
         {content}
       </button>
-      <span className="absolute start-[-7px] bottom-[-7px] group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 duration-300 transition-all ease-in-out">
+      <span className="absolute start-[-7px] bottom-[-7px] whitespace-nowrap group-hover:bottom-0 group-hover:opacity-0 group-hover:start-0 duration-300 transition-all ease-in-out">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="106"
@@ -30,4 +30,4 @@ const CommonButtonTwo = (props) => {
   );
 };
 
-export default CommonButtonTwo;
+export default CommonButtnWhite;

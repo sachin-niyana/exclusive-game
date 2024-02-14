@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { silver } from "./common/Helper";
-import CommonButtonTwo from "./common/CommonButtonTwo";
+import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Ofertas = () => {
   return (
-    <div className="bg-Rich-Black" id="tragamonedas">
+    <div className="bg-Rich-Black " id="tragamonedas">
       <div className="container max-w-[1152px] mx-auto px-3 pb-2">
         <h2
           className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center"
@@ -24,7 +24,7 @@ const Ofertas = () => {
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
         <div
-          className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 border-light-gray rounded-2xl mt-14 p-7"
+          className="bg-black-Green border hover:shadow-grayShadow duration-300 border-light-gray rounded-2xl mt-14 p-7"
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
@@ -70,7 +70,7 @@ const Ofertas = () => {
                 </div>
               ))}
               <div className="mt-10 inline-block">
-                <CommonButtonTwo content="Comprar ahora" />
+                <CommonButtnWhite content="Comprar ahora" />
               </div>
             </div>
           </div>

@@ -186,33 +186,33 @@ export const accordian = [
   {
     tittle:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Qué métodos de pago aceptan?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Puedo probar sus juegos antes de comprometerme?",
-    content:
+    discription:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
 ];

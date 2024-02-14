@@ -1,7 +1,6 @@
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
-import { footerIcon, footerLinks } from "./common/Helper";
+import { footerLinks } from "./common/Helper";
 import { Facebook, Instagram, Linkedin } from "./common/Icon";
 
 const Footer = () => {
@@ -20,18 +19,18 @@ const Footer = () => {
               className=" w-full mb-4 max-w-[210px]"
               alt="logo"
             />
-            <p className=" text-white font-inter font-medium sm:text-sm text-xsm mb-6 opacity-70">
+            <p className=" text-white max-w-[370px] font-Inter font-medium pe-3 sm:text-sm text-xsm mb-6 opacity-70">
               En Exclusive Games somos un equipo apasionado de personas
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             <div className="flex gap-3 items-center">
-              <Link href="/">
+              <Link target="_blank" href="https://www.instagram.com/">
                 <Instagram />
               </Link>
-              <Link href="/">
+              <Link target="_blank" href="https://www.facebook.com/">
                 <Facebook />
               </Link>
-              <Link href="/">
+              <Link target="_blank" href="https://in.linkedin.com/">
                 <Linkedin />
               </Link>
             </div>
@@ -41,18 +40,21 @@ const Footer = () => {
               return (
                 <ul
                   key={index}
-                  className="md:w-4/12 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 ps-5 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
                 >
                   <li className=" font-inter font-bold sm:text-sm text-xsm text-white mb-2">
                     {value.tittle}
                   </li>
                   {value.link.map((subValue, subIndex) => {
                     return (
-                      <Link key={subIndex} href={subValue.path}>
-                        <li className="flex items-center gap-2 opacity-70 text-white font-medium sm:text-sm text-xsm hover:opacity-100 duration-100 ease-in-out transition-all">
+                      <li key={subIndex}>
+                        <Link
+                          href={subValue.path}
+                          className="flex items-center gap-2 opacity-70 text-white font-medium sm:text-sm text-xsm hover:opacity-100 duration-100 ease-in-out transition-all"
+                        >
                           {subValue.icon} {subValue.content}
-                        </li>
-                      </Link>
+                        </Link>
+                      </li>
                     );
                   })}
                 </ul>

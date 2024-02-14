@@ -1,17 +1,17 @@
 import Image from "next/image";
-import CommonButtonOne from "./common/CommonButtonOne";
+import CommonButtnGreen from "./common/CommonButtonGreen";
 import { luxury } from "./common/Helper";
 
 const Luxury = () => {
   return (
-    <div className="bg-Rich-Black">
+    <div className="bg-Rich-Black ">
       <div
         className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2"
         data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-11 bg-cover bg-[url('/assets/webp/luxury-bg.webp')] relative">
+        <div className="bg-black-Green border hover:shadow-grayShadow duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-11 bg-cover bg-[url('/assets/webp/luxury-bg.webp')] relative">
           <Image
             className="absolute md:block hidden bottom-[20%] lg:right-[20%] right-[10%]"
             width={66}
@@ -56,7 +56,7 @@ const Luxury = () => {
               <div key={index}>
                 <div className="flex gap-2 items-start mt-3 pt-2">
                   <Image src={value.image} alt="seen" width={24} height={24} />
-                  <p className="text-gray sm:text-sm text-xsm font-Inter text-center font-medium max-w-[380px]">
+                  <p className="text-gray sm:text-sm text-xsm font-Inter text-center mx-auto font-medium max-w-[380px]">
                     {value.title}
                   </p>
                 </div>
@@ -64,7 +64,7 @@ const Luxury = () => {
             ))}
           </div>
           <div className="mt-10 flex justify-center">
-            <CommonButtonOne content="Comprar ahora" />
+            <CommonButtnGreen content="Comprar ahora" />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommonButtonOne = (props) => {
+const CommonButtnGreen = (props) => {
   const { content } = props;
   return (
     <div className=" relative group">
@@ -42,4 +42,4 @@ const CommonButtonOne = (props) => {
   );
 };
 
-export default CommonButtonOne;
+export default CommonButtnGreen;

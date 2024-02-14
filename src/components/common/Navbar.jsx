@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { navLink } from "./Helper";
-import CommonButtonTwo from "./CommonButtonTwo";
 import { RxCross1 } from "react-icons/rx";
 import { HiOutlineBars4 } from "react-icons/hi2";
+import CommonButtnWhite from "./CommonButtonWhite";
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -15,20 +15,21 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-Rich-Black bg-opacity-60 p-4 flex-grow-0">
+    <nav className="bg-white bg-opacity-10 z-10 p-4 flex-grow-0">
       <div className="flex items-center justify-between container max-w-[1152px] mx-auto px-3">
         <Image
           src="/assets/webp/logo.webp"
           width={150}
           height={43}
           alt="Logo"
-          className="h-8 sm:w-[210px] sm:h-[43px]"
+          className="h-8 md:w-[210px] md:h-[43px]"
         />
         <ul className="hidden lg:flex gap-7 ">
           {navLink.map((value, index) => {
             return (
               <li key={index}>
                 <Link
+                  aria-label={value.title}
                   className="text-white font-inter font-medium sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                   key={index}
                   href={value.path}
@@ -40,7 +41,7 @@ const Navbar = () => {
           })}
         </ul>
         <div className="hidden lg:flex">
-          <CommonButtonTwo
+          <CommonButtnWhite
             content="Acceso"
             borderColor="border-white"
             textColor="text-white"
@@ -78,6 +79,7 @@ const Navbar = () => {
               return (
                 <li key={index}>
                   <Link
+                    aria-label={value.title}
                     className="text-white font-inter font-medium sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                     key={index}
                     href={value.path}
@@ -90,7 +92,7 @@ const Navbar = () => {
             })}
           </ul>
           <div className="flex justify-center">
-            <CommonButtonTwo content="Acceso" />
+            <CommonButtnWhite content="Acceso" />
           </div>
         </div>
       </div>

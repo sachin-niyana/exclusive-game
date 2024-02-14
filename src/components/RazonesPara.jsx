@@ -38,14 +38,16 @@ const razonesPara = () => {
                 <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-start">
                   Más razones para elegirnos
                 </h2>
-                <div className="flex flex-col">
+                <div
+                  className="flex flex-col"
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   {razonesCard.map((value, index) => (
                     <div
                       key={index}
-                      data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1500"
-                      className="bg-black-Green cursor-pointer duration-300 hover:shadow-[0px_0px_10px_2px_Green] md:max-w-[375px] w-full max-w-[420px] border border-Green rounded-2xl py-6 mt-6 flex justify-center"
+                      className="bg-black-Green cursor-pointer transition-all ease-in-out duration-1000 hover:shadow-[0px_0px_10px_2px_Green] md:max-w-[375px] w-full max-w-[420px] border border-Green rounded-2xl py-6 mt-6 flex justify-center"
                     >
                       <div className="flex gap-9">
                         <Image

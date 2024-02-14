@@ -6,7 +6,7 @@ import { Arrow } from "./common/Icon";
 
 const Nuestra = () => {
   return (
-    <div className=" bg-Rich-Black relative" id="hogar">
+    <div className=" bg-Rich-Black mt-[-2px] relative " id="hogar">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[15%] z-10 left-[-5%] pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] bottom-[0%] z-10 right-0 pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[35%] left-[45%] z-10 pointer-events-none"></div>
@@ -34,7 +34,7 @@ const Nuestra = () => {
                 className="md:max-w-[538px] sm:max-w-[430px] w-full max-w-[330px] md:mb-[60px] mb-10"
               />
             </div>
-            <div className="flex justify-center">
+            <div className="flex md:justify-start justify-center">
               <div
                 className=" flex-col flex items-start"
                 data-aos="fade-right"
@@ -65,21 +65,20 @@ const Nuestra = () => {
           </div>
           <div className="md:w-6/12 w-full flex md:flex-col flex-col-reverse md:ps-8">
             <div
-              className="flex justify-center"
+              className="flex md:justify-start justify-center"
               data-aos="fade-left"
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
               <div className=" flex-col flex items-start">
                 <p className="font-Anton text-white lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
-                  Nuestra Visión
+                  Nuestra Misión
                 </p>
                 <p className="text-white opacity-70 font-Inter font-medium sm:text-sm text-xsm max-w-[445px] mb-6">
-                  Nuestra visión es ser líderes indiscutibles en la industria de
-                  los juegos de azar y llevar nuestra pasión por el
-                  entretenimiento más allá de las fronteras. Imagina un mundo
-                  donde la emoción y la diversión no tengan límites, y ese es el
-                  mundo que queremos crear contigo.
+                  Nuestra misión es simple pero poderosa: proporcionarte la más
+                  amplia gama de soluciones de entretenimiento de alta calidad y
+                  rentabilidad. Estamos comprometidos a elevar tus expectativas
+                  y brindarte experiencias inigualables.
                 </p>
                 <Link
                   href="/"

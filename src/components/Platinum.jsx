@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import CommonButtonTwo from "./common/CommonButtonTwo";
+import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Platinum = () => {
   return (
-    <div className="bg-Rich-Black relative">
+    <div className="bg-Rich-Black mt-[-2px] relative">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[158px] bottom-[-20%] right-[-5%] pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[200px] h-[200px] rounded-full blur-[138px] top-[0%] left-[-5%] pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2">
-        <div className="bg-black-Green border hover:shadow-[0px_0px_10px_2px_gray] duration-300 flex flex-col justify-center border-light-gray rounded-2xl px-10 py-20">
+        <div className="bg-black-Green border hover:shadow-grayShadow duration-300 flex flex-col justify-center border-light-gray rounded-2xl px-10 py-20">
           <div className="flex flex-col-reverse md:flex-row justify-center items-center flex-wrap">
             <div
               className="md:w-5/12 md:ps-5 md:pt-0 pt-10"
@@ -38,7 +38,7 @@ const Platinum = () => {
                 </p>
               </div>
               <div className="mt-10 inline-block">
-                <CommonButtonTwo content="Comprar ahora" />
+                <CommonButtnWhite content="Comprar ahora" />
               </div>
             </div>
             <div

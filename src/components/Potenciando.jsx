@@ -1,7 +1,7 @@
 import React from "react";
 import { juegos, potenciando } from "./common/Helper";
 import Image from "next/image";
-import CommonButtonTwo from "./common/CommonButtonTwo";
+import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Potenciando = () => {
   return (
@@ -9,6 +9,8 @@ const Potenciando = () => {
       className="bg-cover bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
       id="mision"
     >
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[5%] z-10 left-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[20%] right-[-10%] pointer-events-none"></div>
       <Image
         className="absolute w-full top-0"
         src="/assets/webp/trangle.webp"
@@ -48,7 +50,7 @@ const Potenciando = () => {
             <h2 className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-start">
               Potenciando sus elecciones
             </h2>
-            <p className="text-gray sm:text-sm text-xsm font-Inter font-medium mt-4 mb-3">
+            <p className="text-gray sm:text-sm text-xsm font-Inter font-medium mt-4 pb-3">
               Con Exclusive Game lo mejor está de tu lado.
             </p>
             {potenciando.map((value, index) => (
@@ -95,11 +97,12 @@ const Potenciando = () => {
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+              className="p-3 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             >
-              <div className="relative">
-                <div className="bg-black rounded-lg opacity-0 hover:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full">
-                  <CommonButtonTwo content="Reproducir ahora" />
+              <div className="relative group/items">
+                <div className="bg-black rounded-lg opacity-0 group-hover/items:opacity-60 duration-300 w-full absolute h-full"></div>
+                <div className="absolute flex justify-center items-center w-full h-full group-hover/items:opacity-100 opacity-0">
+                  <CommonButtnWhite content="Reproducir ahora" />
                 </div>
                 <Image
                   width={364}

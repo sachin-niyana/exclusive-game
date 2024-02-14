@@ -1,12 +1,12 @@
 "use client";
-import CommonButtonOne from "./common/CommonButtonOne";
+import CommonButtnGreen from "./common/CommonButtonGreen";
 import Navbar from "./common/Navbar";
 
 const Header = () => {
   return (
-    <div className="bg-Rich-Black relative">
+    <div className="bg-cover bg-Rich-Black relative bg-[url('/assets/webp/hero-bg.webp')] min-h-screen">
       <Navbar />
-      <div className="bg-cover bg-bottom bg-[url('/assets/webp/hero-bg.webp')] min-h-screen items-center flex-col flex justify-center">
+      <div className="bg-bottom items-center flex-col flex justify-center min-h-[85vh]">
         <div className="container max-w-[1152px] mx-auto px-3 flex-grow-[1] flex items-center justify-center">
           <div className=" flex flex-col items-center">
             <p
@@ -18,10 +18,10 @@ const Header = () => {
               <span className=" block font-Anton font-normal text-white lg:text-xxl md:text-xl sm:text-2lg text-lg">
                 Exclusive Games.
               </span>{" "}
-              Pasión por ganar
+              Pasión Por Ganar
             </p>
             <p
-              className="mt-4 font-Inter sm:text-sm text-xsm font-medium text-center text-white opacity-75 max-w-[730px] md:mb-10 mb-6"
+              className="mt-4 font-Inter sm:text-sm text-xsm font-medium text-center text-gray max-w-[730px] md:mb-10 mb-6"
               data-aos="fade-left"
               data-aos-easing="linear"
               data-aos-duration="1500"
@@ -33,11 +33,11 @@ const Header = () => {
             </p>
             <div
               className="mb-3"
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <CommonButtonOne content="Empezar" />
+              <CommonButtnGreen content="Empezar" />
             </div>
           </div>
         </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import { nuestrosCard, slots } from "./common/Helper";
 import Image from "next/image";
-import CommonButtonTwo from "./common/CommonButtonTwo";
-import CommonButtonOne from "./common/CommonButtonOne";
+import CommonButtnGreen from "./common/CommonButtonGreen";
+import CommonButtnWhite from "./common/CommonButtonWhite";
 const Slots = () => {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white ">
         <div className="container max-w-[1152px] mx-auto px-3">
           <div className="mt-4 relative">
             <Image
@@ -73,7 +73,7 @@ const Slots = () => {
             Slots{" "}
           </h2>
           <div className="flex justify-center mt-4">
-            <p className=" font-Inter font-medium sm:text-sm text-xsm text-Rich-Black text-center max-w-[900px]">
+            <p className=" font-Inter font-medium sm:text-sm text-xsm text-dark-gray text-center max-w-[900px]">
               En Exclusive Games, ofrecemos una selección de más de 600 juegos
               de los principales desarrolladores, como Aristocrat, Amatic, EGT,
               Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo
@@ -89,11 +89,12 @@ const Slots = () => {
                 data-aos="flip-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
-                className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+                className="p-3 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
               >
-                <div className="relative">
-                  <div className="bg-black rounded-lg opacity-0 hover:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full">
-                    <CommonButtonTwo content="Jugar" />
+                <div className="relative group/items">
+                  <div className="bg-black rounded-lg opacity-0 group-hover/items:border group-hover/items:border-green-400 group-hover/items:opacity-60 duration-300 w-full flex justify-center items-center absolute h-full"></div>
+                  <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/items:opacity-100 opacity-0">
+                    <CommonButtnWhite content="Jugar" />
                   </div>
                   <Image
                     width={364}
@@ -106,7 +107,7 @@ const Slots = () => {
             ))}
           </div>
           <div className="flex justify-center mt-10 mb-5">
-            <CommonButtonOne content="Mostrar más" />
+            <CommonButtnGreen content="Mostrar más" />
           </div>
         </div>
       </div>
