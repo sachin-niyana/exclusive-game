@@ -6,7 +6,7 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 const Slots = () => {
   return (
     <>
-      <div className="bg-white ">
+      <div className="bg-white mt-[-2px]">
         <div className="container max-w-[1152px] mx-auto px-3">
           <div className="mt-4 relative">
             <Image

@@ -44,7 +44,7 @@ const Nuestra = () => {
                 <p className="font-Anton text-white lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
                   Nuestra Visión
                 </p>
-                <p className="text-white opacity-70 font-Inter font-medium sm:text-sm text-xsm max-w-[445px] pt-4 mb-6">
+                <p className="text-white opacity-70 font-Inter font-medium sm:text-sm text-xsm max-w-[445px] lg:pt-4 md:pt-2 mb-6">
                   Nuestra visión es ser líderes indiscutibles en la industria de
                   los juegos de azar y llevar nuestra pasión por el
                   entretenimiento más allá de las fronteras. Imagina un mundo
@@ -74,7 +74,7 @@ const Nuestra = () => {
                 <p className="font-Anton text-white lg:text-2lg md:text-lg sm:text-2md text-md text-center font-normal">
                   Nuestra Misión
                 </p>
-                <p className="text-white opacity-70 font-Inter font-medium sm:text-sm text-xsm max-w-[445px] pt-4 mb-6">
+                <p className="text-white opacity-70 font-Inter font-medium sm:text-sm text-xsm max-w-[445px] lg:pt-4 md:pt-2 mb-6">
                   Nuestra misión es simple pero poderosa: proporcionarte la más
                   amplia gama de soluciones de entretenimiento de alta calidad y
                   rentabilidad. Estamos comprometidos a elevar tus expectativas

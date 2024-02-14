@@ -176,8 +176,16 @@ export const footerLinks = [
   {
     tittle: "Ponerse en contacto",
     link: [
-      { content: "juegosexclusivos@gmail.com", path: "/", icon: <Mail /> },
-      { content: "(101)342-7873", path: "/", icon: <Call /> },
+      {
+        content: "juegosexclusivos@gmail.com",
+        path: "mailto:juegosexclusivos@gmail.com",
+        icon: <Mail />,
+      },
+      {
+        content: "(101)342-7873",
+        path: "tel:(101)342-7873",
+        icon: <Call />,
+      },
     ],
   },
 ];

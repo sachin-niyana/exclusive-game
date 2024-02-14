@@ -24,7 +24,7 @@ export default function Home() {
     }); // Initialize AOS
   }, []);
   return (
-    <div className="overflow-x-hidden scroll-smooth">
+    <div className="overflow-x-hidden !scroll-smooth">
       <BackToTop />
       <Header />
       <Nuestra />

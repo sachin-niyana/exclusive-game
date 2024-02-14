@@ -5,7 +5,7 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Ofertas = () => {
   return (
-    <div className="bg-Rich-Black " id="tragamonedas">
+    <div className="bg-Rich-Black mt-[-2px]" id="tragamonedas">
       <div className="container max-w-[1152px] mx-auto px-3 pb-2">
         <h2
           className="text-white xl:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center"

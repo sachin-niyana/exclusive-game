@@ -6,10 +6,10 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 const Potenciando = () => {
   return (
     <div
-      className="bg-cover md:block hidden bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
+      className="bg-cover md:block hidden mt-[-2px] bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
       id="mision"
     >
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[5%] z-10 left-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[0%] z-10 left-[0%] pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[20%] right-[-10%] pointer-events-none"></div>
       <Image
         className="absolute w-full top-0"

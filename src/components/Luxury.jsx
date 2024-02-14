@@ -4,7 +4,7 @@ import { luxury } from "./common/Helper";
 
 const Luxury = () => {
   return (
-    <div className="bg-Rich-Black ">
+    <div className="bg-Rich-Black mt-[-2px]">
       <div
         className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2"
         data-aos="fade-up"

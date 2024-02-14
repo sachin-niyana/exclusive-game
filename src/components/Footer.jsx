@@ -6,9 +6,9 @@ import { Facebook, Instagram, Linkedin } from "./common/Icon";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="bg-black relative overflow-hidden">
+    <div className="bg-black relative overflow-hidden mt-[-2px]">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[120px] h-[120px] rounded-full blur-[70px] top-[35%] right-[-3%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[-3%] left-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[100px] h-[100px] rounded-full blur-[50px] bottom-[0%] left-[-3%] pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
         <div className="flex flex-wrap">
           <div className="lg:w-4/12 w-full">
@@ -25,6 +25,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-3 items-center">
               <Link
+                className="hover:translate-y-[-5px] duration-300"
                 target="_blank"
                 aria-label={<Instagram />}
                 href="https://www.instagram.com/"
@@ -32,6 +33,7 @@ const Footer = () => {
                 <Instagram />
               </Link>
               <Link
+                className="hover:translate-y-[-5px] duration-300"
                 target="_blank"
                 aria-label={<Facebook />}
                 href="https://www.facebook.com/"
@@ -39,6 +41,7 @@ const Footer = () => {
                 <Facebook />
               </Link>
               <Link
+                className="hover:translate-y-[-5px] duration-300"
                 target="_blank"
                 aria-label={<Linkedin />}
                 href="https://in.linkedin.com/"
@@ -52,9 +55,9 @@ const Footer = () => {
               return (
                 <ul
                   key={index}
-                  className="md:w-4/12 ps-0 min-[500px]:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 ps-0 min-[500px]:w-6/12 flex flex-col w-full items-start gap-3 xl:ps-10 md:mb-0 mb-5"
                 >
-                  <li className=" font-inter font-bold sm:text-sm text-xsm text-white mb-2">
+                  <li className=" font-inter font-bold sm:text-sm text-xsm text-white mb-1">
                     {value.tittle}
                   </li>
                   {value.link.map((subValue, subIndex) => {
@@ -75,9 +78,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium sm:text-sm text-xsm hover:opacity-100 duration-100 ease-in-out transition-all px-2">
-        © Juegos exclusivos - Todos los derechos reservados {currentYear}
-      </p>
+      <div className="py-5 border-t-[1px] border-[#191919] text-center gap-2">
+        <p className="text-center inline-block opacity-70 text-white font-medium sm:text-sm text-xsm hover:opacity-100 duration-100 ease-in-out transition-all px-2">
+          © Juegos exclusivos - Todos los derechos reservados {currentYear}
+        </p>
+      </div>
     </div>
   );
 };

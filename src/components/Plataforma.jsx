@@ -3,7 +3,7 @@ import CommonButtnGreen from "./common/CommonButtonGreen";
 
 const Plataforma = () => {
   return (
-    <div className="bg-Rich-Black ">
+    <div className="bg-Rich-Black mt-[-2px]">
       <div className="container max-w-[1152px] mx-auto px-3 lg:py-36 md:py-28 sm:py-20 py-12">
         <div className="flex justify-center">
           <div className="max-w-[1043px] px-3 w-full min-h-[341px] flex flex-col justify-center items-center border border-light-gray hover:shadow-grayShadow transition-all ease-in-out duration-1000 rounded-2xl bg-cover bg-[url('/assets/webp/platatorma-bg.webp')]">

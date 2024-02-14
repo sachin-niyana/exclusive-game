@@ -4,7 +4,7 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 
 const Eligieron = () => {
   return (
-    <div className="bg-Rich-Black">
+    <div className="bg-Rich-Black mt-[-2px]">
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-36 md:pt-28 sm:pt-20 pt-12">
         <h2 className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
           Ellos eligieron apostar con nosotros

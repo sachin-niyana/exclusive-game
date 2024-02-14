@@ -6,7 +6,7 @@ import {
   AccordionBody,
   AccordionHeader,
 } from "@material-tailwind/react";
-import { Close, Open } from "./Icon";
+import { Close, Open } from "./Icon"; // Make sure these imports are correct
 
 function ToggleButton({ isOpen, onClick }) {
   return (
@@ -24,7 +24,7 @@ const MyAccordion = () => {
   };
 
   return (
-    <div className="bg-Rich-Black  relative" id="ofertas">
+    <div className="bg-Rich-Black relative mt-[-2px]" id="ofertas">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[5%] left-[-5%] z-10 pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-36 md:pt-28 sm:pt-20 pt-12">
         <h2 className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
@@ -48,14 +48,16 @@ const MyAccordion = () => {
             >
               <AccordionHeader
                 onClick={() => toggleAccordion(index)}
-                className="py-4"
+                className={
+                  isAccordionOpen === index ? "pt-4 pb-2" : "pt-4 pb-4"
+                }
               >
-                <h2 className="text-start text-white flex pe-3 font-Anton font-normal leading-[140%] md:leading-[150%] sm:text-sm text-xsm mb-0">
+                <h2 className="text-start text-white flex pe-3 font-Anton font-normal leading-[140%] md:leading-[150%] sm:text-xmd text-sm mb-0">
                   {value.tittle}
                 </h2>
               </AccordionHeader>
-              <AccordionBody className="pb-4">
-                <p className="font-Inter font-medium md:sm:text-sm text-xsm max-w-[740px] text-white opacity-70 leading-[150%]">
+              <AccordionBody className="pb-4 !pt-0">
+                <p className="font-Inter p-0 font-medium md:sm:text-sm text-xsm max-w-[740px] text-white opacity-70 leading-[150%]">
                   {value.discription}
                 </p>
               </AccordionBody>

@@ -26,6 +26,7 @@ module.exports = {
         "American-Silver": "#D1CFD2",
         "Rich-Black": "#00141B",
         gray: "#CCD0D1",
+        "White-gray": "#CCCFD1",
         "dark-gray": "#334349",
         "light-gray": "#828F92",
         "Pastel-Green": "#7AF57A",

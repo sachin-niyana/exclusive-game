@@ -4,7 +4,7 @@ import { razonesCard } from "./common/Helper";
 
 const razonesPara = () => {
   return (
-    <div className="bg-Rich-Black relative">
+    <div className="bg-Rich-Black relative mt-[-2px]">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[10%] z-10 left-[-3%] pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[10%] right-[-10%] pointer-events-none"></div>
       <Image
