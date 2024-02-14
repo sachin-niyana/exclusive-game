@@ -22,6 +22,15 @@ module.exports = {
       Anton: ["Anton", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('/assets/webp/hero-bg.webp')",
+        "jackpot-bg": "url('/assets/webp/jackpot-bg.webp')",
+        "propia-bg": "url('/assets/webp/lanza-bg.webp')",
+        "luxury-bg": "url('/assets/webp/luxury-bg.webp')",
+        "plataforma-bg": "url('/assets/webp/platatorma-bg.webp')",
+        "green-shadow":
+          "linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%)",
+      },
       colors: {
         "American-Silver": "#D1CFD2",
         "Rich-Black": "#00141B",

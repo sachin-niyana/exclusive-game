@@ -4,7 +4,7 @@ import Navbar from "./common/Navbar";
 
 const Header = () => {
   return (
-    <div className="bg-cover bg-Rich-Black bg-bottom relative bg-[url('/assets/webp/hero-bg.webp')] min-h-screen">
+    <div className="bg-cover bg-Rich-Black bg-bottom relative bg-hero-bg min-h-screen">
       <Navbar />
       <div className="items-center flex-col flex justify-center min-h-[85vh]">
         <div className="container max-w-[1152px] mx-auto px-3 flex-grow-[1] flex items-center justify-center">

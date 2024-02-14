@@ -7,9 +7,9 @@ import { Arrow } from "./common/Icon";
 const Nuestra = () => {
   return (
     <div className=" bg-Rich-Black mt-[-2px] relative " id="hogar">
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[15%] z-10 left-[-5%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] bottom-[0%] z-10 right-0 pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[35%] left-[45%] z-10 pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[284px] h-[284px] rounded-full blur-[158px] top-[15%] z-10 left-[-8%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[284px] h-[284px] rounded-full blur-[158px] bottom-[0%] z-10 right-[-10%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[184px] h-[184px] rounded-full blur-[108px] top-[35%] left-[45%] z-10 pointer-events-none"></div>
       <Image
         src="/assets/webp/trangle-2.webp"
         alt="trangle-2"

@@ -5,8 +5,8 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 const Platinum = () => {
   return (
     <div className="bg-Rich-Black mt-[-2px] relative">
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[158px] bottom-[-20%] right-[-5%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[200px] h-[200px] rounded-full blur-[138px] top-[0%] left-[-5%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[184px] h-[184px] rounded-full blur-[158px] bottom-[-20%] right-[-5%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[200px] h-[200px] rounded-full blur-[138px] top-[0%] left-[-5%] pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 pt-14 pb-2">
         <div className="bg-black-Green border hover:shadow-grayShadow duration-300 flex flex-col justify-center border-light-gray rounded-2xl px-10 py-20">
           <div className="flex flex-col-reverse md:flex-row justify-center items-center flex-wrap">
@@ -47,7 +47,7 @@ const Platinum = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[70px] top-[3%] z-[0] right-[15%] pointer-events-none"></div>
+              <div className=" absolute bg-green-shadow w-[184px] h-[184px] rounded-full blur-[70px] top-[3%] z-[0] right-[15%] pointer-events-none"></div>
               <Image
                 className="z-10 relative"
                 src="/assets/webp/win-2.webp"

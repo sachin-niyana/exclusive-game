@@ -25,7 +25,7 @@ const MyAccordion = () => {
 
   return (
     <div className="bg-Rich-Black relative mt-[-2px]" id="ofertas">
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[158px] top-[5%] left-[-5%] z-10 pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[284px] h-[284px] rounded-full blur-[158px] top-[5%] left-[-5%] z-10 pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-36 md:pt-28 sm:pt-20 pt-12">
         <h2 className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center">
           Ellos eligieron apostar con nosotros

@@ -7,8 +7,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="bg-black relative overflow-hidden mt-[-2px]">
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[120px] h-[120px] rounded-full blur-[70px] top-[35%] right-[-3%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[100px] h-[100px] rounded-full blur-[50px] bottom-[0%] left-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[120px] h-[120px] rounded-full blur-[70px] top-[35%] right-[-3%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[100px] h-[100px] rounded-full blur-[50px] bottom-[0%] left-[-3%] pointer-events-none"></div>
       <div className="container max-w-[1152px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
         <div className="flex flex-wrap">
           <div className="lg:w-4/12 w-full">

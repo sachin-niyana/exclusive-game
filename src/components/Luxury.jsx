@@ -11,13 +11,14 @@ const Luxury = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <div className="bg-black-Green border hover:shadow-grayShadow duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-11 bg-cover bg-[url('/assets/webp/luxury-bg.webp')] relative">
+        <div className="bg-black-Green border hover:shadow-grayShadow duration-300 flex flex-col justify-center border-light-gray rounded-2xl p-11 bg-cover bg-luxury-bg relative">
           <Image
             className="absolute md:block hidden bottom-[20%] lg:right-[20%] right-[10%]"
             width={66}
             height={69}
             src="/assets/webp/roll.webp"
             alt="roll"
+            sizes="100vw"
           />
           <Image
             className="absolute md:block hidden top-[20%] lg:left-[20%] left-[10%]"
@@ -25,6 +26,7 @@ const Luxury = () => {
             height={79}
             src="/assets/webp/spin.webp"
             alt="spin"
+            sizes="100vw"
           />
           <Image
             className="absolute md:block hidden bottom-[10%] lg:left-[13%] left-[0%]"
@@ -32,6 +34,7 @@ const Luxury = () => {
             height={186}
             src="/assets/webp/card-1.webp"
             alt="card-1"
+            sizes="100vw"
           />
           <Image
             className="absolute md:block hidden top-[20%] lg:right-[13%] right-[2%]"
@@ -39,6 +42,7 @@ const Luxury = () => {
             height={150}
             src="/assets/webp/card-2.webp"
             alt="card-2"
+            sizes="100vw"
           />
           <h3 className="text-white md:text-2md text-md font-normal font-Anton text-center mt-6">
             Luxury

@@ -26,7 +26,7 @@ const Ofertas = () => {
         <div className="bg-black-Green border transition-all ease-in-out duration-1000 hover:shadow-grayShadow border-light-gray rounded-2xl mt-14 p-7">
           <div className="flex justify-center items-center flex-wrap">
             <div className="md:w-7/12 relative">
-              <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[70px] top-[8%] left-[10%] pointer-events-none"></div>
+              <div className=" absolute bg-green-shadow w-[184px] h-[184px] rounded-full blur-[70px] top-[8%] left-[10%] pointer-events-none"></div>
               <Image
                 data-aos="zoom-out"
                 data-aos-easing="linear"

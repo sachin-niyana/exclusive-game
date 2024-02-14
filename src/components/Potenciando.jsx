@@ -6,11 +6,11 @@ import CommonButtnWhite from "./common/CommonButtonWhite";
 const Potenciando = () => {
   return (
     <div
-      className="bg-cover md:block hidden mt-[-2px] bg-Rich-Black relative bg-[url('/assets/webp/jackpot-bg.webp')]"
+      className="bg-cover md:block hidden mt-[-2px] bg-Rich-Black relative bg-jackpot-bg"
       id="mision"
     >
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] top-[0%] z-10 left-[0%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[184px] h-[184px] rounded-full blur-[108px] bottom-[20%] right-[-10%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[284px] h-[284px] rounded-full blur-[158px] top-[0%] z-10 left-[0%] pointer-events-none"></div>
+      <div className=" absolute bg-green-shadow w-[184px] h-[184px] rounded-full blur-[108px] bottom-[20%] right-[-10%] pointer-events-none"></div>
       <Image
         className="absolute w-full top-0"
         src="/assets/webp/trangle.webp"
@@ -75,7 +75,7 @@ const Potenciando = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <div className="max-w-[1043px] px-3 w-full hover:shadow-grayShadow transition-all ease-in-out duration-1000 min-h-[308px] flex justify-center items-center border border-white rounded-2xl bg-[url('/assets/webp/lanza-bg.webp')] bg-cover">
+          <div className="max-w-[1043px] px-3 w-full hover:shadow-grayShadow transition-all ease-in-out duration-1000 min-h-[308px] flex justify-center items-center border border-white rounded-2xl bg-propia-bg bg-cover">
             <p className="text-white lg:text-2lg md:text-lg sm:text-2md text-md font-normal font-Anton text-center max-w-[520px]">
               lanza tu propia plataforma en sólo 2 semanas
             </p>
