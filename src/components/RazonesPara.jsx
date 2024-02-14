@@ -47,7 +47,7 @@ const razonesPara = () => {
                   {razonesCard.map((value, index) => (
                     <div
                       key={index}
-                      className="bg-black-Green cursor-pointer transition-all ease-in-out duration-1000 hover:shadow-[0px_0px_10px_2px_Green] md:max-w-[375px] w-full max-w-[420px] border border-Green rounded-2xl py-6 mt-6 flex justify-center"
+                      className="bg-black-Green transition-all ease-in-out duration-1000 hover:shadow-[0px_0px_10px_2px_Green] md:max-w-[375px] w-full max-w-[420px] border border-Green rounded-2xl py-6 mt-6 flex justify-center"
                     >
                       <div className="flex gap-9">
                         <Image
